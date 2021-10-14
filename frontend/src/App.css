@@ -1,0 +1,48 @@
+body {
+    /* background: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wired.com%2F2015%2F03%2Fghostbusters-gender%2F&psig=AOvVaw3ueHWd2P2eww3tvSU-6qRI&ust=1634334213433000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDe7srvyvMCFQAAAAAdAAAAABAE'; */
+    background: linear-gradient(to right,#000000, #fa8d28, #ff0404);
+}
+
+.App {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    border-radius: 10px;
+    color: rgb(43, 43, 43);
+}
+
+nav ul li:hover {
+    background-color: #ffffff80;
+}
+
+nav ul li:focus {
+    color: rgb(43, 43, 43);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    background: rgba(175, 175, 175, 0.5);
+    border-radius: 10px;
+    margin-left: 10vw;
+    height: 60vh;
+}
+
+.main-content {
+    margin-left: 10vw;
+    width: 60vw;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
