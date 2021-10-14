@@ -1,10 +1,12 @@
 body {
     /* background: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wired.com%2F2015%2F03%2Fghostbusters-gender%2F&psig=AOvVaw3ueHWd2P2eww3tvSU-6qRI&ust=1634334213433000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDe7srvyvMCFQAAAAAdAAAAABAE'; */
-    background: linear-gradient(to right,#000000, #fa8d28, #ff0404);
+    background-image: url('https://media.wired.com/photos/593272e226780e6c04d2bd05/master/pass/ghostbusters-ft.jpg');
 }
 
 .App {
     display: flex;
+    margin: auto;
+    align-items: center;
     width: 100vw;
     min-height: 100vh;
 }
@@ -15,21 +17,23 @@ nav ul {
     text-decoration: none;
 }
 
-nav ul li {
-    border-radius: 10px;
-    color: rgb(43, 43, 43);
-}
-
-nav ul li:hover {
+a:hover {
     background-color: #ffffff80;
+    border-radius: 10px;
+    color: rgb(255, 131, 131);
 }
 
-nav ul li:focus {
-    color: rgb(43, 43, 43);
-}
+/* a:visited {
+    color: rgb(255, 131, 131);
+} */
 
 a {
     text-decoration: none;
+    color: rgb(194, 3, 3);
+    padding-top: .5vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    margin-bottom: 5vh;
 }
 
 .nav-bar {
@@ -37,6 +41,11 @@ a {
     border-radius: 10px;
     margin-left: 10vw;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center;
+    text-align: center; */
 }
 
 .main-content {
