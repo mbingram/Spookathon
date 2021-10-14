@@ -21,9 +21,15 @@ export default class NavBar extends Component {
     };
     render(){
         return (
-            <div>
-                
-            </div>
+            <nav>
+                <ul>
+                    <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
+                    <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
+                    <Navitem item="Hire" tolink="/hire"  activec={this.activeitem}></Navitem>
+                    <Navitem item="Reviews" tolink="/reviews"  activec={this.activeitem}></Navitem>
+                    <Navitem item="Sightings" tolink="/sightings"  activec={this.activeitem}></Navitem>
+                </ul>
+            </nav>
         )
     }
 }
