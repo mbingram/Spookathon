@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import Navitem from './Navitem';
-
+import Navitem from './NavItem';
 
 export default class NavBar extends Component {
     constructor(props)

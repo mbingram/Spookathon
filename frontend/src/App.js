@@ -8,12 +8,14 @@ import About from './components/About';
 import Hire from './components/Hire';
 import Reviews from './components/Reviews';
 import Sightings from './components/Sightings';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     
     <Router>
     <div className="App">
+    <NavBar />
     <Route exact path="/">
     <Home />
     </Route>
