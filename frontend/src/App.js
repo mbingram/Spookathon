@@ -12,7 +12,6 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    
     <Router>
     <div className="App">
     <NavBar />
@@ -31,7 +30,6 @@ function App() {
     <Route path="/reviews">
     <Reviews />
     </Route>
-
     </div>
     </Router>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Sightings() {
     return (
-        <div>
+        <div className="main-content">
             Sightings
         </div>
     )

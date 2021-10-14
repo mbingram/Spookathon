@@ -20,7 +20,7 @@ export default class NavBar extends Component {
     };
     render(){
         return (
-            <nav>
+            <nav className="nav-bar">
                 <ul>
                     <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
                     <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
