@@ -21,6 +21,7 @@ export default class NavBar extends Component {
     render(){
         return (
             <nav className="nav-bar">
+                <img src="https://www.pngfind.com/pngs/m/37-379688_ghostbusters-ghostbusters-logo-png-transparent-png.png" alt="logo" className="logo"></img>
                 <ul>
                     <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
                     <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
